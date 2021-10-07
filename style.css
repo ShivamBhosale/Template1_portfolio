@@ -49,6 +49,7 @@ a{
 
 a:hover{
     font-size: 1.5rem;
+    background-color: whitesmoke;
 }
 
 .name{
@@ -56,6 +57,11 @@ a:hover{
     font-size: 50px;
     text-align: center;
     margin-top: 40px;
+    transition: 0.5s all linear
+}
+.name:hover{
+    background-color: whitesmoke;
+    margin: 10px 200px;
 }
 .dp{
     text-align: center;
